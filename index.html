@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="hi" class="dark scroll-smooth"><head>
+  <script type="module" src="/@vite/client"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush Gaurav — Professional Portfolio | Student Creator from Bihar</title>
+  <meta name="description" content="Official modern professional portfolio of Ayush Gaurav, student innovator from UMV Tukariya, Bettiah, Bihar. Web development, ethical cybersecurity, and digital creation.">
+  <meta property="og:title" content="Ayush Gaurav — Professional Portfolio | Student Creator from Bihar">
+  <meta property="og:description" content="आयुष गौरव का आधुनिक एवं प्रोफेशनल टेक पोर्टफोलियो। UMV Tukariya, बेतिया, बिहार।">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23080a11' stroke='%2338bdf8' stroke-width='4'/%3E%3Cpolygon points='50,18 82,50 50,82 18,50' fill='none' stroke='%2338bdf8' stroke-width='4'/%3E%3Ccircle cx='50' cy='50' r='10' fill='%2338bdf8'/%3E%3C/svg%3E">
+  
+  <!-- Google Fonts: Inter & Mukta -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Mukta:wght@300;400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@500;700;800&amp;display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            hindi: ['Mukta', 'sans-serif'],
+            sans: ['Inter', 'Plus Jakarta Sans', 'Mukta', 'sans-serif'],
+          },
+          colors: {
+            brandDark: '#080a11',
+            brandBlue: '#38bdf8',
+            brandIndigo: '#818cf8',
+            brandEmerald: '#10b981',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Three.js CDN & Canvas Confetti CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Mukta', 'Inter', sans-serif;
+      background-color: #080a11;
+      color: #f1f5f9;
+      overflow-x: hidden;
+    }
+    .tech-grid {
+      background-image: 
+        linear-gradient(to right, rgba(56, 189, 248, 0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(56, 189, 248, 0.04) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #080a11;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #38bdf8;
+    }
+    .perspective-1000 {
+      perspective: 1000px;
+    }
+  </style>
+<script src="/_aistudio-iframe.js?v=6634132a"></script><script src="https://cdn.jsdelivr.net/npm/html2canvas-pro@2.0.4"></script><style>.aistudio-hover-highlight { box-shadow: inset 0 0 0 0.5px white, inset 0 0 0 1.5px rgba(128,128,128,0.6) !important; }.aistudio-active-highlight { outline: 2px solid #87a9ff !important; outline-offset: -2px !important; box-shadow: 0 0 0 0.5px rgba(0,0,0,0.3), inset 0 0 0 0.5px rgba(0,0,0,0.3) !important; }.aistudio-generating-blur { filter: blur(5px) grayscale(100%) brightness(28%) !important; transition: filter 0.3s ease; }#aistudio-focus-mode-tag { position: absolute; display: none; align-items: center; gap: 4px; background: #87a9ff; border-radius: 12px; z-index: 10000; padding: 8px; color: #32302c; font-family: Inter, sans-serif; font-size: 14px; font-style: normal; font-weight: 500; line-height: 21px; pointer-events: none; }#aistudio-hover-mode-tag { position: absolute; display: none; align-items: center; gap: 4px; background: rgba(128,128,128,0.6); border-radius: 12px; z-index: 10000; padding: 8px; color: white; font-family: Inter, sans-serif; font-size: 14px; font-style: normal; font-weight: 500; line-height: 21px; pointer-events: none; }.aistudio-img-icon { display: none; vertical-align: middle; pointer-events: auto; cursor: pointer; }.aistudio-img-icon.visible { display: inline-flex; }#aistudio-focus-mode-tag .aistudio-img-icon { position: relative; width: 26px; height: 26px; background: #32302c; border-radius: 6px; margin: -4px -4px -4px 0; }#aistudio-focus-mode-tag .aistudio-img-icon::before { content: ""; position: absolute; top: 4px; left: 4px; width: 18px; height: 18px; background-color: white; -webkit-mask-image: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/edit_fix_auto/default/24px.svg"); -webkit-mask-size: contain; -webkit-mask-repeat: no-repeat; mask-image: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/edit_fix_auto/default/24px.svg"); mask-size: contain; mask-repeat: no-repeat; }#aistudio-hover-mode-tag .aistudio-img-icon { position: relative; width: 18px; height: 18px; margin-left: 4px; }#aistudio-hover-mode-tag .aistudio-img-icon::before { content: ""; position: absolute; top: 0; left: 0; width: 18px; height: 18px; background-color: white; -webkit-mask-image: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/edit_fix_auto/default/24px.svg"); -webkit-mask-size: contain; -webkit-mask-repeat: no-repeat; mask-image: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/edit_fix_auto/default/24px.svg"); mask-size: contain; mask-repeat: no-repeat; }#aistudio-focus-mode-tag .aistudio-img-icon:hover, #aistudio-hover-mode-tag .aistudio-img-icon:hover { background: #424242 !important; }#aistudio-focus-mode-tag .aistudio-img-icon:active, #aistudio-hover-mode-tag .aistudio-img-icon:active { background: #393f51 !important; }</style><style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, Plus Jakarta Sans, Mukta, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.pointer-events-auto{pointer-events:auto}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.left-0{left:0px}.right-0{right:0px}.top-0{top:0px}.-bottom-1{bottom:-0.25rem}.-right-1{right:-0.25rem}.right-4{right:1rem}.top-4{top:1rem}.z-50{z-index:50}.z-10{z-index:10}.z-40{z-index:40}.z-0{z-index:0}.z-20{z-index:20}.z-30{z-index:30}.mx-auto{margin-left:auto;margin-right:auto}.my-auto{margin-top:auto;margin-bottom:auto}.mb-6{margin-bottom:1.5rem}.mb-3{margin-bottom:0.75rem}.mb-2{margin-bottom:0.5rem}.mt-8{margin-top:2rem}.mt-6{margin-top:1.5rem}.mb-16{margin-bottom:4rem}.mt-4{margin-top:1rem}.mt-1\.5{margin-top:0.375rem}.mb-4{margin-bottom:1rem}.mb-1{margin-bottom:0.25rem}.mt-3{margin-top:0.75rem}.mb-12{margin-bottom:3rem}.mt-1{margin-top:0.25rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-20{height:5rem}.h-12{height:3rem}.h-16{height:4rem}.h-10{height:2.5rem}.h-2\.5{height:0.625rem}.h-0\.5{height:0.125rem}.h-4{height:1rem}.h-1{height:0.25rem}.h-24{height:6rem}.h-full{height:100%}.h-3{height:0.75rem}.h-3\.5{height:0.875rem}.h-2{height:0.5rem}.h-44{height:11rem}.max-h-\[85vh\]{max-height:85vh}.min-h-screen{min-height:100vh}.w-20{width:5rem}.w-12{width:3rem}.w-10{width:2.5rem}.w-full{width:100%}.w-2\.5{width:0.625rem}.w-6{width:1.5rem}.w-4{width:1rem}.w-24{width:6rem}.w-3{width:0.75rem}.w-3\.5{width:0.875rem}.max-w-7xl{max-width:80rem}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-md{max-width:28rem}.max-w-5xl{max-width:64rem}.max-w-lg{max-width:32rem}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}@keyframes spin{to{transform:rotate(360deg)}}.animate-spin{animation:spin 1s linear infinite}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}.cursor-pointer{cursor:pointer}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-1\.5{gap:0.375rem}.gap-2{gap:0.5rem}.gap-1{gap:0.25rem}.gap-8{gap:2rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.scroll-smooth{scroll-behavior:smooth}.rounded-2xl{border-radius:1rem}.rounded-xl{border-radius:0.75rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-3xl{border-radius:1.5rem}.rounded-\[14px\]{border-radius:14px}.rounded{border-radius:0.25rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-l{border-left-width:1px}.border-t{border-top-width:1px}.border-sky-500\/30{border-color:rgb(14 165 233 / 0.3)}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.border-emerald-500\/40{border-color:rgb(16 185 129 / 0.4)}.border-pink-500\/40{border-color:rgb(236 72 153 / 0.4)}.border-slate-700\/80{border-color:rgb(51 65 85 / 0.8)}.border-emerald-500\/30{border-color:rgb(16 185 129 / 0.3)}.border-sky-500\/20{border-color:rgb(14 165 233 / 0.2)}.border-sky-500\/25{border-color:rgb(14 165 233 / 0.25)}.border-indigo-500\/30{border-color:rgb(99 102 241 / 0.3)}.border-sky-500\/40{border-color:rgb(14 165 233 / 0.4)}.border-indigo-500\/40{border-color:rgb(99 102 241 / 0.4)}.border-amber-500\/30{border-color:rgb(245 158 11 / 0.3)}.border-purple-500\/30{border-color:rgb(168 85 247 / 0.3)}.border-rose-500\/30{border-color:rgb(244 63 94 / 0.3)}.border-blue-500\/30{border-color:rgb(59 130 246 / 0.3)}.border-slate-800\/80{border-color:rgb(30 41 59 / 0.8)}.border-pink-500\/30{border-color:rgb(236 72 153 / 0.3)}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42 / var(--tw-border-opacity, 1))}.border-purple-500\/40{border-color:rgb(168 85 247 / 0.4)}.bg-\[\#080a11\]{--tw-bg-opacity:1;background-color:rgb(8 10 17 / var(--tw-bg-opacity, 1))}.bg-\[\#07090e\]{--tw-bg-opacity:1;background-color:rgb(7 9 14 / var(--tw-bg-opacity, 1))}.bg-sky-950\/40{background-color:rgb(8 47 73 / 0.4)}.bg-slate-900\/60{background-color:rgb(15 23 42 / 0.6)}.bg-\[\#080a11\]\/90{background-color:rgb(8 10 17 / 0.9)}.bg-sky-500\/10{background-color:rgb(14 165 233 / 0.1)}.bg-emerald-500\/20{background-color:rgb(16 185 129 / 0.2)}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-slate-900\/85{background-color:rgb(15 23 42 / 0.85)}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153 / var(--tw-bg-opacity, 1))}.bg-black\/40{background-color:rgb(0 0 0 / 0.4)}.bg-\[\#0b0e17\]\/80{background-color:rgb(11 14 23 / 0.8)}.bg-sky-400{--tw-bg-opacity:1;background-color:rgb(56 189 248 / var(--tw-bg-opacity, 1))}.bg-emerald-500\/15{background-color:rgb(16 185 129 / 0.15)}.bg-\[\#0b0e17\]\/90{background-color:rgb(11 14 23 / 0.9)}.bg-sky-500{--tw-bg-opacity:1;background-color:rgb(14 165 233 / var(--tw-bg-opacity, 1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-\[\#090c14\]{--tw-bg-opacity:1;background-color:rgb(9 12 20 / var(--tw-bg-opacity, 1))}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.bg-emerald-950\/60{background-color:rgb(2 44 34 / 0.6)}.bg-slate-900\/70{background-color:rgb(15 23 42 / 0.7)}.bg-\[\#0b0e17\]\/85{background-color:rgb(11 14 23 / 0.85)}.bg-indigo-500\/10{background-color:rgb(99 102 241 / 0.1)}.bg-sky-500\/15{background-color:rgb(14 165 233 / 0.15)}.bg-indigo-500\/15{background-color:rgb(99 102 241 / 0.15)}.bg-\[\#0c0f18\]\/90{background-color:rgb(12 15 24 / 0.9)}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-purple-500{--tw-bg-opacity:1;background-color:rgb(168 85 247 / var(--tw-bg-opacity, 1))}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94 / var(--tw-bg-opacity, 1))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-rose-500\/15{background-color:rgb(244 63 94 / 0.15)}.bg-\[\#0c0f18\]\/85{background-color:rgb(12 15 24 / 0.85)}.bg-sky-500\/20{background-color:rgb(14 165 233 / 0.2)}.bg-indigo-500\/20{background-color:rgb(99 102 241 / 0.2)}.bg-purple-500\/20{background-color:rgb(168 85 247 / 0.2)}.bg-rose-500\/20{background-color:rgb(244 63 94 / 0.2)}.bg-\[\#05070d\]{--tw-bg-opacity:1;background-color:rgb(5 7 13 / var(--tw-bg-opacity, 1))}.bg-black\/85{background-color:rgb(0 0 0 / 0.85)}.bg-\[\#0c0f18\]{--tw-bg-opacity:1;background-color:rgb(12 15 24 / var(--tw-bg-opacity, 1))}.bg-\[\#0f131f\]{--tw-bg-opacity:1;background-color:rgb(15 19 31 / var(--tw-bg-opacity, 1))}.bg-black\/60{background-color:rgb(0 0 0 / 0.6)}.bg-purple-600{--tw-bg-opacity:1;background-color:rgb(147 51 234 / var(--tw-bg-opacity, 1))}.bg-purple-950\/40{background-color:rgb(59 7 100 / 0.4)}.bg-purple-950\/60{background-color:rgb(59 7 100 / 0.6)}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.bg-gradient-to-t{background-image:linear-gradient(to top, var(--tw-gradient-stops))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.from-sky-500{--tw-gradient-from:#0ea5e9 var(--tw-gradient-from-position);--tw-gradient-to:rgb(14 165 233 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-\[\#080a11\]{--tw-gradient-from:#080a11 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 10 17 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-400{--tw-gradient-from:#38bdf8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(56 189 248 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600\/20{--tw-gradient-from:rgb(219 39 119 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-\[\#111625\]{--tw-gradient-from:#111625 var(--tw-gradient-from-position);--tw-gradient-to:rgb(17 22 37 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-500\/20{--tw-gradient-from:rgb(236 72 153 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(236 72 153 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-950\/40{--tw-gradient-from:rgb(8 47 73 / 0.4) var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 47 73 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-500\/10{--tw-gradient-from:rgb(14 165 233 / 0.1) var(--tw-gradient-from-position);--tw-gradient-to:rgb(14 165 233 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-950\/20{--tw-gradient-from:rgb(8 47 73 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 47 73 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-950\/20{--tw-gradient-from:rgb(30 27 75 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(30 27 75 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-950\/20{--tw-gradient-from:rgb(2 44 34 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 44 34 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-900{--tw-gradient-from:#0f172a var(--tw-gradient-from-position);--tw-gradient-to:rgb(15 23 42 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-950\/30{--tw-gradient-from:rgb(8 47 73 / 0.3) var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 47 73 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-500\/15{--tw-gradient-from:rgb(236 72 153 / 0.15) var(--tw-gradient-from-position);--tw-gradient-to:rgb(236 72 153 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-\[\#140f28\]{--tw-gradient-from:#140f28 var(--tw-gradient-from-position);--tw-gradient-to:rgb(20 15 40 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-transparent{--tw-gradient-to:rgb(0 0 0 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), transparent var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-indigo-400{--tw-gradient-to:rgb(129 140 248 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #818cf8 var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-purple-600\/20{--tw-gradient-to:rgb(147 51 234 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), rgb(147 51 234 / 0.2) var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-\[\#0d101a\]{--tw-gradient-to:rgb(13 16 26 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0d101a var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-purple-500\/20{--tw-gradient-to:rgb(168 85 247 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), rgb(168 85 247 / 0.2) var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-indigo-500\/10{--tw-gradient-to:rgb(99 102 241 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), rgb(99 102 241 / 0.1) var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-indigo-500{--tw-gradient-to:rgb(99 102 241 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #6366f1 var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-\[\#0a0d14\]{--tw-gradient-to:rgb(10 13 20 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0a0d14 var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-\[\#0d091a\]{--tw-gradient-to:rgb(13 9 26 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0d091a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-transparent{--tw-gradient-to:transparent var(--tw-gradient-to-position)}.to-emerald-400{--tw-gradient-to:#34d399 var(--tw-gradient-to-position)}.to-orange-600\/20{--tw-gradient-to:rgb(234 88 12 / 0.2) var(--tw-gradient-to-position)}.to-indigo-500{--tw-gradient-to:#6366f1 var(--tw-gradient-to-position)}.to-\[\#07090e\]{--tw-gradient-to:#07090e var(--tw-gradient-to-position)}.to-orange-500\/20{--tw-gradient-to:rgb(249 115 22 / 0.2) var(--tw-gradient-to-position)}.to-slate-900{--tw-gradient-to:#0f172a var(--tw-gradient-to-position)}.to-emerald-500\/10{--tw-gradient-to:rgb(16 185 129 / 0.1) var(--tw-gradient-to-position)}.to-indigo-400{--tw-gradient-to:#818cf8 var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-black{--tw-gradient-to:#000 var(--tw-gradient-to-position)}.to-indigo-950\/30{--tw-gradient-to:rgb(30 27 75 / 0.3) var(--tw-gradient-to-position)}.to-purple-500\/15{--tw-gradient-to:rgb(168 85 247 / 0.15) var(--tw-gradient-to-position)}.to-\[\#07050f\]{--tw-gradient-to:#07050f var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.object-cover{object-fit:cover}.object-top{object-position:top}.p-2{padding:0.5rem}.p-6{padding:1.5rem}.p-3{padding:0.75rem}.p-0\.5{padding:0.125rem}.p-3\.5{padding:0.875rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-7{padding:1.75rem}.p-8{padding:2rem}.p-2\.5{padding:0.625rem}.p-1{padding:0.25rem}.px-4{padding-left:1rem;padding-right:1rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-3\.5{padding-left:0.875rem;padding-right:0.875rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-24{padding-top:6rem;padding-bottom:6rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.px-8{padding-left:2rem;padding-right:2rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.pb-12{padding-bottom:3rem}.pt-20{padding-top:5rem}.pt-4{padding-top:1rem}.pl-2{padding-left:0.5rem}.pt-3{padding-top:0.75rem}.pt-0{padding-top:0px}.pt-16{padding-top:4rem}.pt-8{padding-top:2rem}.text-center{text-align:center}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-\[11px\]{font-size:11px}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xs{font-size:0.75rem;line-height:1rem}.text-base{font-size:1rem;line-height:1.5rem}.text-\[10px\]{font-size:10px}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-light{font-weight:300}.font-extrabold{font-weight:800}.font-semibold{font-weight:600}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.tracking-\[0\.25em\]{letter-spacing:0.25em}.tracking-widest{letter-spacing:0.1em}.tracking-wider{letter-spacing:0.05em}.text-slate-100{--tw-text-opacity:1;color:rgb(241 245 249 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-emerald-300{--tw-text-opacity:1;color:rgb(110 231 183 / var(--tw-text-opacity, 1))}.text-sky-300{--tw-text-opacity:1;color:rgb(125 211 252 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-slate-200{--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.text-pink-300{--tw-text-opacity:1;color:rgb(249 168 212 / var(--tw-text-opacity, 1))}.text-slate-950{--tw-text-opacity:1;color:rgb(2 6 23 / var(--tw-text-opacity, 1))}.text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}.text-indigo-400{--tw-text-opacity:1;color:rgb(129 140 248 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-purple-400{--tw-text-opacity:1;color:rgb(192 132 252 / var(--tw-text-opacity, 1))}.text-rose-400{--tw-text-opacity:1;color:rgb(251 113 133 / var(--tw-text-opacity, 1))}.text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity, 1))}.text-purple-300{--tw-text-opacity:1;color:rgb(216 180 254 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-60{opacity:0.6}.shadow-\[0_0_20px_rgba\(56\2c 189\2c 248\2c 0\.5\)\]{--tw-shadow:0 0 20px rgba(56,189,248,0.5);--tw-shadow-colored:0 0 20px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-\[0_0_15px_rgba\(56\2c 189\2c 248\2c 0\.4\)\]{--tw-shadow:0 0 15px rgba(56,189,248,0.4);--tw-shadow-colored:0 0 15px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-\[0_0_20px_rgba\(56\2c 189\2c 248\2c 0\.4\)\]{--tw-shadow:0 0 20px rgba(56,189,248,0.4);--tw-shadow-colored:0 0 20px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur{--tw-backdrop-blur:blur(8px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-500{transition-duration:500ms}.duration-300{transition-duration:300ms}.selection\:bg-sky-500 *::selection{--tw-bg-opacity:1;background-color:rgb(14 165 233 / var(--tw-bg-opacity, 1))}.selection\:text-black *::selection{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.selection\:bg-sky-500::selection{--tw-bg-opacity:1;background-color:rgb(14 165 233 / var(--tw-bg-opacity, 1))}.selection\:text-black::selection{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.hover\:-translate-y-2:hover{--tw-translate-y:-0.5rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-125:hover{--tw-scale-x:1.25;--tw-scale-y:1.25;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:border-sky-500:hover{--tw-border-opacity:1;border-color:rgb(14 165 233 / var(--tw-border-opacity, 1))}.hover\:border-pink-400:hover{--tw-border-opacity:1;border-color:rgb(244 114 182 / var(--tw-border-opacity, 1))}.hover\:border-amber-500:hover{--tw-border-opacity:1;border-color:rgb(245 158 11 / var(--tw-border-opacity, 1))}.hover\:border-emerald-500:hover{--tw-border-opacity:1;border-color:rgb(16 185 129 / var(--tw-border-opacity, 1))}.hover\:border-purple-500:hover{--tw-border-opacity:1;border-color:rgb(168 85 247 / var(--tw-border-opacity, 1))}.hover\:border-rose-500:hover{--tw-border-opacity:1;border-color:rgb(244 63 94 / var(--tw-border-opacity, 1))}.hover\:border-blue-500:hover{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.hover\:border-sky-500\/50:hover{border-color:rgb(14 165 233 / 0.5)}.hover\:border-indigo-500\/50:hover{border-color:rgb(99 102 241 / 0.5)}.hover\:border-rose-500\/50:hover{border-color:rgb(244 63 94 / 0.5)}.hover\:border-emerald-500\/50:hover{border-color:rgb(16 185 129 / 0.5)}.hover\:bg-slate-800\/60:hover{background-color:rgb(30 41 59 / 0.6)}.hover\:bg-emerald-500:hover{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.hover\:bg-sky-500:hover{--tw-bg-opacity:1;background-color:rgb(14 165 233 / var(--tw-bg-opacity, 1))}.hover\:bg-indigo-500:hover{--tw-bg-opacity:1;background-color:rgb(99 102 241 / var(--tw-bg-opacity, 1))}.hover\:bg-rose-500:hover{--tw-bg-opacity:1;background-color:rgb(244 63 94 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-400:hover{--tw-bg-opacity:1;background-color:rgb(52 211 153 / var(--tw-bg-opacity, 1))}.hover\:bg-purple-500:hover{--tw-bg-opacity:1;background-color:rgb(168 85 247 / var(--tw-bg-opacity, 1))}.hover\:bg-sky-400:hover{--tw-bg-opacity:1;background-color:rgb(56 189 248 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-700:hover{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.hover\:text-sky-400:hover{--tw-text-opacity:1;color:rgb(56 189 248 / var(--tw-text-opacity, 1))}.hover\:text-slate-950:hover{--tw-text-opacity:1;color:rgb(2 6 23 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:text-purple-300:hover{--tw-text-opacity:1;color:rgb(216 180 254 / var(--tw-text-opacity, 1))}@media (min-width: 640px){.sm\:block{display:block}.sm\:inline{display:inline}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:items-center{align-items:center}.sm\:p-9{padding:2.25rem}.sm\:p-8{padding:2rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}.sm\:text-lg{font-size:1.125rem;line-height:1.75rem}.sm\:text-6xl{font-size:3.75rem;line-height:1}.sm\:text-2xl{font-size:1.5rem;line-height:2rem}.sm\:text-base{font-size:1rem;line-height:1.5rem}.sm\:text-5xl{font-size:3rem;line-height:1}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-sm{font-size:0.875rem;line-height:1.25rem}}@media (min-width: 768px){.md\:mt-12{margin-top:3rem}.md\:flex{display:flex}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}}@media (min-width: 1024px){.lg\:col-span-5{grid-column:span 5 / span 5}.lg\:col-span-7{grid-column:span 7 / span 7}.lg\:grid-cols-12{grid-template-columns:repeat(12, minmax(0, 1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}</style></head>
+<body class="bg-[#080a11] text-slate-100 antialiased selection:bg-sky-500 selection:text-black">
+
+  <!-- 1. Intro Animation Overlay -->
+  <div id="intro-loader" class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#07090e] transition-opacity duration-500 px-4" style="opacity: 0; display: none;">
+    <div class="relative w-20 h-20 mb-6 flex items-center justify-center">
+      <div class="absolute inset-0 rounded-2xl border border-sky-500/30 animate-spin" style="animation-duration: 8s;"></div>
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-sky-500 to-indigo-600 flex items-center justify-center text-white font-black text-xl shadow-[0_0_20px_rgba(56,189,248,0.5)]">
+        AG
+      </div>
+    </div>
+    <span class="text-[11px] tracking-[0.25em] uppercase text-sky-400 font-bold px-3 py-1 bg-sky-950/40 border border-sky-500/30 rounded-full mb-3">
+      PROFESSIONAL PORTFOLIO
+    </span>
+    <h1 class="text-3xl sm:text-4xl font-black text-white mb-2">
+      आयुष गौरव <span class="text-slate-400 text-2xl font-light">| Ayush Gaurav</span>
+    </h1>
+    <p class="text-sm text-slate-300 italic mb-6">
+      “एक विद्यार्थी, एक सपने देखने वाला, और भविष्य का Creator.”
+    </p>
+    <button onclick="dismissIntro()" class="text-xs text-slate-300 hover:text-sky-400 py-1.5 px-4 rounded-full border border-slate-700 bg-slate-900/60 cursor-pointer">
+      सीधे प्रवेश करें →
+    </button>
+  </div>
+
+  <!-- 2. Ambient Tech Particles Background -->
+  <canvas id="tech-canvas" class="fixed inset-0 pointer-events-none z-10 opacity-60" width="393" height="677"></canvas>
+
+  <!-- 3. Navigation Bar -->
+  <nav class="fixed top-0 left-0 right-0 z-40 bg-[#080a11]/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#hero" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-500 to-indigo-600 flex items-center justify-center font-black text-white text-base shadow-[0_0_15px_rgba(56,189,248,0.4)]">
+          AG
+        </div>
+        <div class="flex flex-col">
+          <span class="font-extrabold text-white text-base sm:text-lg flex items-center gap-1.5">
+            आयुष गौरव
+            <span class="text-[10px] px-2 py-0.5 rounded-full bg-sky-500/10 text-sky-400 border border-sky-500/30">
+              Student Innovator
+            </span>
+          </span>
+          <span class="text-[11px] text-slate-400">UMV Tukariya • बेतिया, बिहार</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <div class="hidden md:flex items-center gap-2">
+        <a href="#hero" class="px-3 py-1.5 text-sm font-semibold text-slate-300 hover:text-sky-400 hover:bg-slate-800/60 rounded-lg">होम</a>
+        <a href="#about" class="px-3 py-1.5 text-sm font-semibold text-slate-300 hover:text-sky-400 hover:bg-slate-800/60 rounded-lg">परिचय</a>
+        <a href="#team" class="px-3 py-1.5 text-sm font-semibold text-slate-300 hover:text-sky-400 hover:bg-slate-800/60 rounded-lg">मेरी टीम</a>
+        <a href="#skills" class="px-3 py-1.5 text-sm font-semibold text-slate-300 hover:text-sky-400 hover:bg-slate-800/60 rounded-lg">कौशल</a>
+        <a href="#projects" class="px-3 py-1.5 text-sm font-semibold text-slate-300 hover:text-sky-400 hover:bg-slate-800/60 rounded-lg">प्रोजेक्ट्स</a>
+        <a href="#goals" class="px-3 py-1.5 text-sm font-semibold text-slate-300 hover:text-sky-400 hover:bg-slate-800/60 rounded-lg">विज़न &amp; लक्ष्य</a>
+      </div>
+
+      <!-- Controls & Download -->
+      <div class="flex items-center gap-2">
+        <!-- 1-Click Download index.html button -->
+        <button onclick="downloadCurrentIndexHtml()" title="डाउनलोड करें index.html फाइल" class="px-3 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 hover:bg-emerald-500 hover:text-slate-950 font-bold text-xs flex items-center gap-1.5 transition-all cursor-pointer shadow-sm">
+          <span>📥</span>
+          <span class="hidden sm:inline font-mono">index.html</span>
+        </button>
+
+        <!-- Sound Toggle -->
+        <button id="sound-btn" onclick="toggleSound()" class="p-2 rounded-lg border border-slate-800 bg-slate-900 text-slate-400 hover:text-white text-xs flex items-center gap-1.5 cursor-pointer">
+          <span id="sound-icon">🔇</span>
+          <span id="sound-text" class="hidden sm:inline">Sound OFF</span>
+        </button>
+
+        <!-- Motion Toggle -->
+        <button id="motion-btn" onclick="toggleMotion()" class="p-2 rounded-lg border border-slate-800 bg-slate-900 text-slate-400 hover:text-white text-xs flex items-center gap-1 cursor-pointer">
+          <span>⚡</span>
+          <span id="motion-text" class="hidden sm:inline">गति सामान्य</span>
+        </button>
+
+        <!-- Hosting Guide -->
+        <button onclick="openModal('hosting-modal')" class="px-2.5 py-1.5 rounded-lg bg-gradient-to-r from-sky-600 to-indigo-600 text-white font-semibold text-xs flex items-center gap-1 shadow-md cursor-pointer">
+          <span>🚀 होस्टिंग गाइड</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 4. Hero Section with 3D Three.js Tech Core -->
+  <section id="hero" class="relative w-full min-h-screen pt-20 pb-12 flex flex-col justify-between overflow-hidden">
+    <div id="three-container" class="absolute inset-0 z-0"><canvas width="774" height="1528" style="display: block; width: 387px; height: 764px;"></canvas></div>
+    <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-[#080a11] via-transparent to-transparent z-10"></div>
+
+    <!-- Status Ribbon -->
+    <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 w-full pt-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 pointer-events-none">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/85 border border-sky-500/30 backdrop-blur-md">
+        <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="text-xs font-bold text-sky-300">सरकारी स्कूल से डिजिटल क्रांति की शुरुआत</span>
+        <span class="text-[11px] text-slate-400 pl-2 border-l border-slate-700">UMV Tukariya • बिहार</span>
+      </div>
+      <div class="text-xs text-slate-400 bg-black/40 backdrop-blur px-3 py-1 rounded-full border border-slate-800 hidden sm:block">
+        3D Interactive Tech Core: स्क्रीन पर माउस घुमाएं
+      </div>
+    </div>
+
+    <!-- Central Hero Text Box -->
+    <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 w-full my-auto flex flex-col items-start pointer-events-none mt-8 md:mt-12">
+      <div class="max-w-2xl bg-[#0b0e17]/80 backdrop-blur-md p-6 sm:p-9 rounded-3xl border border-slate-800 shadow-2xl">
+        <div class="text-xs font-bold text-sky-400 tracking-widest uppercase mb-2 flex items-center gap-2">
+          <span class="w-6 h-0.5 bg-sky-400"></span>
+          PROFESSIONAL TECH PORTFOLIO
+        </div>
+        <h1 class="text-4xl sm:text-6xl font-black text-white mb-2">
+          आयुष <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-indigo-400 to-emerald-400">गौरव</span>
+        </h1>
+        <p class="text-xl sm:text-2xl text-slate-200 font-semibold mb-3">
+          “एक विद्यार्थी, एक सपने देखने वाला, और भविष्य का Creator.”
+        </p>
+        <p class="text-sm sm:text-base text-slate-300 leading-relaxed mb-6">
+          मैं <strong class="text-sky-400">UMV Tukariya (बेतिया, पश्चिम चंपारण, बिहार)</strong> का एक होनहार सरकारी स्कूल छात्र हूँ।
+          वेब डेवलपमेंट, एथिकल साइबर सुरक्षा और डिजिटल इनोवेशन की दिशा में मेरा लक्ष्य उपयोगी और प्रभावशाली तकनीक का निर्माण करना है।
+        </p>
+        <div class="flex flex-wrap items-center gap-3 pointer-events-auto">
+          <a href="#about" class="px-5 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 text-white font-extrabold text-sm sm:text-base shadow-[0_0_20px_rgba(56,189,248,0.4)] hover:scale-105 transition-all">
+            मेरे बारे में
+          </a>
+          <a href="#projects" class="px-5 py-3 rounded-xl bg-slate-900 text-white font-bold text-sm sm:text-base border border-slate-700 hover:border-sky-500 shadow-lg hover:scale-105 transition-all">
+            मेरे Projects →
+          </a>
+          <a href="https://instagram.com/Ayushfly456" target="_blank" rel="noopener noreferrer" class="px-4 py-3 rounded-xl bg-gradient-to-r from-pink-600/20 via-purple-600/20 to-orange-600/20 text-pink-300 border border-pink-500/40 hover:border-pink-400 hover:text-white font-bold text-sm transition-all flex items-center gap-2 shadow-sm">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg>
+            <span>Instagram: @Ayushfly456</span>
+          </a>
+          <button onclick="downloadCurrentIndexHtml()" class="px-4 py-3 rounded-xl bg-emerald-500/15 text-emerald-300 border border-emerald-500/40 hover:bg-emerald-500 hover:text-slate-950 font-bold text-sm transition-all flex items-center gap-2 cursor-pointer shadow-md">
+            <span>📥</span> Download index.html
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3D Core Mode Dock -->
+    <div class="relative z-30 w-full max-w-3xl mx-auto px-4 mt-6 pointer-events-auto">
+      <div class="bg-[#0b0e17]/90 backdrop-blur-md border border-slate-800 rounded-2xl p-3 shadow-2xl flex flex-wrap items-center justify-between gap-2">
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-bold text-slate-400 uppercase tracking-wider hidden sm:inline">3D कोर विज़ुअलाइज़ेशन:</span>
+          <button onclick="setTheme('cyber')" id="btn-cyber" class="px-3 py-1.5 rounded-lg text-xs font-bold bg-sky-500 text-slate-950 transition-all cursor-pointer">
+            साइबर कोर (Cyan)
+          </button>
+          <button onclick="setTheme('matrix')" id="btn-matrix" class="px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 transition-all cursor-pointer">
+            डेटा मैट्रिक्स (Emerald)
+          </button>
+          <button onclick="setTheme('quantum')" id="btn-quantum" class="px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 transition-all cursor-pointer">
+            क्वांटम ऑरा (Purple)
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. About Me Section -->
+  <section id="about" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <div class="text-center mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-bold uppercase tracking-widest mb-3">
+        <span>व्यक्तिगत परिचय &amp; यात्रा</span>
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-black text-white">
+        मेरे बारे में <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-indigo-400 to-emerald-400">(About Me)</span>
+      </h2>
+      <div class="w-20 h-1 bg-gradient-to-r from-sky-500 to-indigo-500 mx-auto mt-4 rounded-full"></div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+      <!-- Profile Card with Ayush's Real Photo -->
+      <div class="lg:col-span-5 flex justify-center">
+        <div class="w-full max-w-md bg-gradient-to-b from-[#111625] via-[#0d101a] to-[#07090e] rounded-3xl p-6 sm:p-8 border border-slate-700/80 shadow-2xl relative">
+          <div class="flex items-center gap-4 mb-6">
+            <div class="w-24 h-24 rounded-2xl bg-gradient-to-br from-sky-500 to-indigo-600 p-0.5 flex-shrink-0 shadow-lg relative">
+              <div class="w-full h-full rounded-[14px] bg-[#090c14] overflow-hidden flex items-center justify-center">
+                <img src="images/ayush_real.jpg" alt="आयुष गौरव - Real Photo" class="w-full h-full object-cover object-top hover:scale-105 transition-transform" onerror="this.onerror=null; this.src='public/images/ayush_real.jpg'; this.onerror=function(){this.src='images/ayush_pro.jpg';};">
+              </div>
+              <span class="absolute -bottom-1 -right-1 px-2 py-0.5 rounded-full bg-emerald-500 text-slate-950 text-[10px] font-black uppercase tracking-wider shadow-md">
+                Verified ✓
+              </span>
+            </div>
+            <div>
+              <span class="text-[11px] text-sky-400 font-bold uppercase tracking-wider block">Official Profile • 2026</span>
+              <h3 class="text-2xl font-black text-white">आयुष गौरव</h3>
+              <p class="text-xs text-slate-400">Ayush Gaurav • Student Innovator</p>
+              <div class="flex flex-wrap items-center gap-2 mt-1.5">
+                <span class="text-[10px] text-emerald-400 bg-emerald-950/60 border border-emerald-500/30 px-2 py-0.5 rounded-full font-medium">
+                  वास्तविक प्रोफाइल (Real Photo)
+                </span>
+                <a href="https://instagram.com/Ayushfly456" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-gradient-to-r from-pink-500/20 via-purple-500/20 to-orange-500/20 border border-pink-500/40 text-pink-300 hover:text-white hover:border-pink-400 text-[11px] font-semibold transition-all">
+                  <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                  </svg>
+                  <span>@Ayushfly456</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-3 mb-6 text-sm">
+            <div class="p-3.5 rounded-2xl bg-slate-900/70 border border-slate-800">
+              <span class="text-xs text-slate-400 block font-semibold">विद्यालय (School)</span>
+              <span class="text-white font-bold">UMV Tukariya</span>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-slate-900/70 border border-slate-800">
+              <span class="text-xs text-slate-400 block font-semibold">स्थान (Location)</span>
+              <span class="text-white font-bold">बेतिया, पश्चिम चंपारण, बिहार, भारत</span>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-slate-900/70 border border-slate-800">
+              <span class="text-xs text-slate-400 block font-semibold">पहचान (Identity)</span>
+              <span class="text-white font-bold">सरकारी स्कूल का गौरवान्वित छात्र व डिजिटल साधक</span>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-2xl bg-gradient-to-r from-sky-950/40 to-slate-900 border border-sky-500/20 text-xs text-slate-300 italic">
+            “संसाधनों की सीमितता कभी सपनों की सीमा नहीं बन सकती। निरंतर अभ्यास और लगन ही सबसे बड़ा संबल है।”
+          </div>
+        </div>
+      </div>
+
+      <!-- Narrative & Dream -->
+      <div class="lg:col-span-7 bg-[#0b0e17]/85 rounded-3xl p-6 sm:p-9 border border-slate-800 shadow-xl">
+        <h3 class="text-2xl sm:text-3xl font-black text-white mb-4">
+          मेरी यात्रा और उद्देश्य
+        </h3>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          नमस्ते! मेरा नाम <strong class="text-sky-400 font-semibold">आयुष गौरव</strong> है। मैं बिहार के बेतिया स्थित <span class="text-white font-semibold">UMV Tukariya</span> का विद्यार्थी हूँ। सरकारी स्कूल में पढ़ते हुए मुझे हमेशा कंप्यूटर, इंटरनेट और सॉफ्टवेयर तकनीकों ने गहरा आकर्षण दिया है।
+        </p>
+        <p class="text-slate-400 leading-relaxed mb-6">
+          मेरा मानना है कि सीखने का कोई अंत नहीं होता। तकनीक का केवल उपभोग करने के बजाय खुद नए उपयोगी समाधान बनाना मेरा उद्देश्य है।
+        </p>
+
+        <h4 class="text-xs font-bold text-sky-400 uppercase mb-3">मुख्य रुचियां (Core Interests):</h4>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6 text-sm">
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-200">💻 Technology &amp; Web Dev</div>
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-200">🛡️ Ethical Cybersecurity</div>
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-200">✨ Creative Digital Design</div>
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-200">📚 निरंतर नई Skills का अभ्यास</div>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-gradient-to-r from-sky-500/10 via-indigo-500/10 to-emerald-500/10 border border-sky-500/25">
+          <div class="text-sky-400 font-extrabold text-xs uppercase mb-1">❤️ मेरा विज़न और सपना (My Dream)</div>
+          <p class="text-white font-medium text-base sm:text-lg">
+            “समाज के लिए उपयोगी और रचनात्मक Digital Projects बनाना, नई पीढ़ी को तकनीक सीखने के लिए प्रेरित करना और एक सफल Creator बनकर अपने विद्यालय, परिवार और बिहार का नाम रोशन करना।”
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Collaborative Team Section (Anup, Sajid, Shahzad) -->
+  <section id="team" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <div class="text-center mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 text-xs font-bold uppercase tracking-widest mb-3">
+        <span>सहयोग एवं मित्रता का संबल</span>
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-black text-white">
+        मेरी टीम <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-400">(My Collaborative Team)</span>
+      </h2>
+      <p class="mt-3 text-slate-400 text-sm sm:text-base max-w-2xl mx-auto">
+        अकेले हम सीख सकते हैं, लेकिन जब अच्छे दोस्त साथ हों तो हम मिलकर बड़े सपने सच कर सकते हैं:
+      </p>
+      <div class="w-20 h-1 bg-gradient-to-r from-sky-500 via-indigo-500 to-emerald-500 mx-auto mt-4 rounded-full"></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Anup -->
+      <div class="rounded-3xl bg-gradient-to-b from-sky-950/20 via-slate-900 to-[#07090e] p-7 border border-sky-500/40 shadow-xl hover:-translate-y-2 transition-transform duration-300 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-sky-500/15 text-sky-400 border border-sky-500/30">
+              Web &amp; Systems Collaborator
+            </span>
+            <span class="text-xs font-mono text-slate-500">Collaborator</span>
+          </div>
+          <div class="w-24 h-24 mx-auto mb-4 rounded-2xl bg-slate-900 border border-sky-500/40 overflow-hidden flex items-center justify-center shadow-lg">
+            <img src="images/anup_pro.jpg" alt="Anup - Real Photo" class="w-full h-full object-cover object-top hover:scale-105 transition-transform" onerror="this.onerror=null; this.src='public/images/anup_pro.jpg'; this.onerror=function(){this.src='images/anup_real.jpg';};">
+          </div>
+          <h3 class="text-2xl font-black text-white text-center mb-1">Anup</h3>
+          <div class="text-center mb-2">
+            <a href="https://instagram.com/the_anup_kumar_45" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-pink-500/20 via-purple-500/20 to-orange-500/20 border border-pink-500/40 text-pink-300 hover:text-white hover:border-pink-400 text-xs font-semibold transition-all shadow-sm">
+              <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+              </svg>
+              <span>@the_anup_kumar_45</span>
+            </a>
+          </div>
+          <p class="text-xs text-sky-400 font-semibold text-center mb-4">टेक्निकल सहयोगी • Tech &amp; Development</p>
+          <div class="p-4 rounded-2xl bg-black/40 border border-slate-800 text-xs sm:text-sm text-slate-300 italic text-center mb-4">
+            “मुसीबत कितनी भी बड़ी हो, जब मित्र एक लक्ष्य के लिए साथ काम करते हैं, तो हर चुनौती आसान हो जाती है।”
+          </div>
+        </div>
+        <div class="text-xs text-slate-400 pt-3 border-t border-slate-800 flex justify-between">
+          <span>विशेष शक्ति:</span>
+          <span class="text-white font-medium">सक्रिय ऊर्जा और दृढ़ता</span>
+        </div>
+      </div>
+
+      <!-- Sajid -->
+      <div class="rounded-3xl bg-gradient-to-b from-indigo-950/20 via-slate-900 to-[#07090e] p-7 border border-indigo-500/40 shadow-xl hover:-translate-y-2 transition-transform duration-300 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-indigo-500/15 text-indigo-400 border border-indigo-500/30">
+              Logic &amp; Problem Solving
+            </span>
+            <span class="text-xs font-mono text-slate-500">Collaborator</span>
+          </div>
+          <div class="w-24 h-24 mx-auto mb-4 rounded-2xl bg-slate-900 border border-indigo-500/40 flex items-center justify-center text-3xl shadow-lg font-black text-white">
+            S
+          </div>
+          <h3 class="text-2xl font-black text-white text-center mb-1">Sajid</h3>
+          <p class="text-xs text-indigo-400 font-semibold text-center mb-4">रणनीति एवं विश्लेषक • Strategy &amp; Logic</p>
+          <div class="p-4 rounded-2xl bg-black/40 border border-slate-800 text-xs sm:text-sm text-slate-300 italic text-center mb-4">
+            “सच्चा साथी वही है जो विचार-विमर्श में सही दिशा दिखाए और कठिन समय में रोशनी की किरण बने।”
+          </div>
+        </div>
+        <div class="text-xs text-slate-400 pt-3 border-t border-slate-800 flex justify-between">
+          <span>विशेष शक्ति:</span>
+          <span class="text-white font-medium">तार्किक समझ और सूक्ष्म दृष्टि</span>
+        </div>
+      </div>
+
+      <!-- Shahzad -->
+      <div class="rounded-3xl bg-gradient-to-b from-emerald-950/20 via-slate-900 to-[#07090e] p-7 border border-emerald-500/40 shadow-xl hover:-translate-y-2 transition-transform duration-300 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
+              Creative Execution &amp; Support
+            </span>
+            <span class="text-xs font-mono text-slate-500">Collaborator</span>
+          </div>
+          <div class="w-24 h-24 mx-auto mb-4 rounded-2xl bg-slate-900 border border-emerald-500/40 flex items-center justify-center text-3xl shadow-lg font-black text-white">
+            Sh
+          </div>
+          <h3 class="text-2xl font-black text-white text-center mb-1">Shahzad</h3>
+          <p class="text-xs text-emerald-400 font-semibold text-center mb-4">रचनात्मक सहयोगी • Creative &amp; Execution</p>
+          <div class="p-4 rounded-2xl bg-black/40 border border-slate-800 text-xs sm:text-sm text-slate-300 italic text-center mb-4">
+            “सच्ची मित्रता हर परिस्थिति में साथ निभाती है और टीम के हर सदस्य को आगे बढ़ने का आत्मविश्वास देती है।”
+          </div>
+        </div>
+        <div class="text-xs text-slate-400 pt-3 border-t border-slate-800 flex justify-between">
+          <span>विशेष शक्ति:</span>
+          <span class="text-white font-medium">सहानुभूति और अटूट निष्ठा</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Skills Section -->
+  <section id="skills" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <div class="text-center mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-bold uppercase tracking-widest mb-3">
+        <span>तकनीकी दक्षता एवं अभ्यास</span>
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-black text-white">
+        मेरे कौशल <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-indigo-400 to-emerald-400">(My Skills)</span>
+      </h2>
+      <p class="mt-3 text-slate-400 text-sm sm:text-base max-w-2xl mx-auto">
+        बिना किसी अवास्तविक प्रतिशत के — यह मेरा वास्तविक और ईमानदार सीखने का प्रगति पत्र है:
+      </p>
+      <div class="w-20 h-1 bg-gradient-to-r from-sky-500 to-emerald-500 mx-auto mt-4 rounded-full"></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Skill 1 -->
+      <div class="rounded-3xl bg-[#0c0f18]/90 p-6 border border-sky-500/30 hover:border-sky-500 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-2xl">⚙️</span>
+            <span class="text-xs text-slate-300 bg-slate-800 px-2 py-0.5 rounded">सक्रिय अध्ययन</span>
+          </div>
+          <h3 class="text-xl font-bold text-white">नई Technology सीखना</h3>
+          <p class="text-xs text-slate-400 font-mono mb-2">Learning Technology</p>
+          <p class="text-sm text-slate-300 mb-4">कंप्यूटर के बुनियादी सिद्धांतों, ऑपरेटिंग सिस्टम और डिजिटल टूल्स को स्वयं प्रयोग करके समझना।</p>
+        </div>
+        <div>
+          <div class="flex justify-between text-xs text-slate-400 mb-1">
+            <span>प्रगति स्तर:</span>
+            <span class="text-sky-400 font-medium">तीव्र जिज्ञासा एवं खोजबीन</span>
+          </div>
+          <div class="grid grid-cols-4 gap-1.5 h-2">
+            <div class="bg-sky-500 rounded-full"></div>
+            <div class="bg-sky-500 rounded-full"></div>
+            <div class="bg-sky-500 rounded-full"></div>
+            <div class="bg-slate-800 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 2 -->
+      <div class="rounded-3xl bg-[#0c0f18]/90 p-6 border border-amber-500/30 hover:border-amber-500 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-2xl">💡</span>
+            <span class="text-xs text-slate-300 bg-slate-800 px-2 py-0.5 rounded">अभ्यास स्तर</span>
+          </div>
+          <h3 class="text-xl font-bold text-white">रचनात्मक सोच</h3>
+          <p class="text-xs text-slate-400 font-mono mb-2">Creative Thinking</p>
+          <p class="text-sm text-slate-300 mb-4">ग्रामीण परिवेश की चुनौतियों के लिए डिजिटल समाधान सोचना और रचनात्मक नजरिए से सोचना।</p>
+        </div>
+        <div>
+          <div class="flex justify-between text-xs text-slate-400 mb-1">
+            <span>प्रगति स्तर:</span>
+            <span class="text-amber-400 font-medium">समस्या समाधान &amp; परिकल्पना</span>
+          </div>
+          <div class="grid grid-cols-4 gap-1.5 h-2">
+            <div class="bg-amber-500 rounded-full"></div>
+            <div class="bg-amber-500 rounded-full"></div>
+            <div class="bg-amber-500 rounded-full"></div>
+            <div class="bg-slate-800 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 3 -->
+      <div class="rounded-3xl bg-[#0c0f18]/90 p-6 border border-emerald-500/30 hover:border-emerald-500 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-2xl">💻</span>
+            <span class="text-xs text-slate-300 bg-slate-800 px-2 py-0.5 rounded">बुनियादी नींव</span>
+          </div>
+          <h3 class="text-xl font-bold text-white">बेसिक वेब डेवलपमेंट</h3>
+          <p class="text-xs text-slate-400 font-mono mb-2">Basic Web Development</p>
+          <p class="text-sm text-slate-300 mb-4">वेबसाइट कैसे बनती है, HTML/CSS संरचना और रिस्पॉन्सिव लेआउट का अभ्यास।</p>
+        </div>
+        <div>
+          <div class="flex justify-between text-xs text-slate-400 mb-1">
+            <span>प्रगति स्तर:</span>
+            <span class="text-emerald-400 font-medium">HTML, CSS &amp; UI अभ्यास</span>
+          </div>
+          <div class="grid grid-cols-4 gap-1.5 h-2">
+            <div class="bg-emerald-500 rounded-full"></div>
+            <div class="bg-emerald-500 rounded-full"></div>
+            <div class="bg-slate-800 rounded-full"></div>
+            <div class="bg-slate-800 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 4 -->
+      <div class="rounded-3xl bg-[#0c0f18]/90 p-6 border border-purple-500/30 hover:border-purple-500 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-2xl">🛡️</span>
+            <span class="text-xs text-slate-300 bg-slate-800 px-2 py-0.5 rounded">अध्ययनरत</span>
+          </div>
+          <h3 class="text-xl font-bold text-white">एथिकल साइबर सुरक्षा</h3>
+          <p class="text-xs text-slate-400 font-mono mb-2">Ethical Cybersecurity</p>
+          <p class="text-sm text-slate-300 mb-4">ऑनलाइन धोखाधड़ी से बचाव, सुरक्षित पासवर्ड और नेटवर्क सुरक्षा के बुनियादी नियम।</p>
+        </div>
+        <div>
+          <div class="flex justify-between text-xs text-slate-400 mb-1">
+            <span>प्रगति स्तर:</span>
+            <span class="text-purple-400 font-medium">सुरक्षा जागरूकता &amp; नियम</span>
+          </div>
+          <div class="grid grid-cols-4 gap-1.5 h-2">
+            <div class="bg-purple-500 rounded-full"></div>
+            <div class="bg-purple-500 rounded-full"></div>
+            <div class="bg-slate-800 rounded-full"></div>
+            <div class="bg-slate-800 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 5 -->
+      <div class="rounded-3xl bg-[#0c0f18]/90 p-6 border border-rose-500/30 hover:border-rose-500 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-2xl">🎥</span>
+            <span class="text-xs text-slate-300 bg-slate-800 px-2 py-0.5 rounded">आरंभिक प्रयोग</span>
+          </div>
+          <h3 class="text-xl font-bold text-white">डिजिटल कंटेंट क्रिएशन</h3>
+          <p class="text-xs text-slate-400 font-mono mb-2">Content Creation</p>
+          <p class="text-sm text-slate-300 mb-4">सीखे हुए ज्ञान को सरल हिंदी में प्रस्तुत करना और यूट्यूब के लिए उपयोगी ट्यूटोरियल्स तैयार करना।</p>
+        </div>
+        <div>
+          <div class="flex justify-between text-xs text-slate-400 mb-1">
+            <span>प्रगति स्तर:</span>
+            <span class="text-rose-400 font-medium">वीडियो संपादन &amp; प्रेजेंटेशन</span>
+          </div>
+          <div class="grid grid-cols-4 gap-1.5 h-2">
+            <div class="bg-rose-500 rounded-full"></div>
+            <div class="bg-rose-500 rounded-full"></div>
+            <div class="bg-slate-800 rounded-full"></div>
+            <div class="bg-slate-800 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 6 -->
+      <div class="rounded-3xl bg-[#0c0f18]/90 p-6 border border-blue-500/30 hover:border-blue-500 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-2xl">🤝</span>
+            <span class="text-xs text-slate-300 bg-slate-800 px-2 py-0.5 rounded">स्वाभाविक गुण</span>
+          </div>
+          <h3 class="text-xl font-bold text-white">टीमवर्क और सहयोग</h3>
+          <p class="text-xs text-slate-400 font-mono mb-2">Teamwork</p>
+          <p class="text-sm text-slate-300 mb-4">अपने सहपाठियों के साथ मिलकर सीखना, एक-दूसरे का मनोबल बढ़ाना और समूह में काम करना।</p>
+        </div>
+        <div>
+          <div class="flex justify-between text-xs text-slate-400 mb-1">
+            <span>प्रगति स्तर:</span>
+            <span class="text-blue-400 font-medium">तालमेल एवं साथ सीखना</span>
+          </div>
+          <div class="grid grid-cols-4 gap-1.5 h-2">
+            <div class="bg-blue-500 rounded-full"></div>
+            <div class="bg-blue-500 rounded-full"></div>
+            <div class="bg-blue-500 rounded-full"></div>
+            <div class="bg-blue-500 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Projects Section -->
+  <section id="projects" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <div class="text-center mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-bold uppercase tracking-widest mb-3">
+        <span>डिजिटल रचनाएं</span>
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-black text-white">
+        मेरे Projects <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-indigo-400 to-emerald-400">(Featured Works)</span>
+      </h2>
+      <div class="w-20 h-1 bg-gradient-to-r from-sky-500 to-indigo-500 mx-auto mt-4 rounded-full"></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Project 1 -->
+      <div class="rounded-3xl bg-[#0c0f18]/90 border border-slate-800 hover:border-sky-500/50 shadow-xl overflow-hidden flex flex-col justify-between">
+        <div>
+          <div class="h-44 bg-gradient-to-br from-slate-900 via-[#0a0d14] to-black flex items-center justify-center border-b border-slate-800">
+            <span class="text-4xl">💻</span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-black text-white mb-1">पर्सनल पोर्टफोलियो वेबसाइट</h3>
+            <p class="text-xs text-slate-500 font-mono mb-3">Personal Portfolio Platform</p>
+            <p class="text-sm text-slate-300 mb-4">HTML5, Three.js, और Tailwind CSS द्वारा निर्मित आधुनिक 3D इंटरैक्टिव पोर्टफोलियो।</p>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <button onclick="openProjectModal('पर्सनल पोर्टफोलियो वेबसाइट', 'HTML5, Three.js, Tailwind CSS और Web Audio API से निर्मित आधुनिक अनुभव।')" class="w-full py-2.5 rounded-xl bg-sky-500/15 text-sky-400 border border-sky-500/30 font-bold text-sm hover:bg-sky-500 hover:text-slate-950 transition-colors cursor-pointer">
+            विवरण देखें →
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="rounded-3xl bg-[#0c0f18]/90 border border-slate-800 hover:border-indigo-500/50 shadow-xl overflow-hidden flex flex-col justify-between">
+        <div>
+          <div class="h-44 bg-gradient-to-br from-slate-900 via-[#0a0d14] to-black flex items-center justify-center border-b border-slate-800">
+            <span class="text-4xl">🎨</span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-black text-white mb-1">आधुनिक वेब ऍप्लिकेशन्स डिज़ाइन्स</h3>
+            <p class="text-xs text-slate-500 font-mono mb-3">Modern Web UI Prototypes</p>
+            <p class="text-sm text-slate-300 mb-4">क्लीन डार्क मोड, ग्लासमोर्फिज्म और मॉडर्न डैशबोर्ड लेआउट्स पर आधारित क्रिएटिव वेब इंटरफेस एक्सपेरिमेंट्स।</p>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <button onclick="openProjectModal('आधुनिक वेब ऍप्लिकेशन्स डिज़ाइन्स', 'CSS आर्किटेक्चर, ग्लासमोर्फिज्म और रिस्पॉन्सिव ग्रिड पर आधारित प्रोटोटाइप्स।')" class="w-full py-2.5 rounded-xl bg-indigo-500/15 text-indigo-400 border border-indigo-500/30 font-bold text-sm hover:bg-indigo-500 hover:text-slate-950 transition-colors cursor-pointer">
+            विवरण देखें →
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="rounded-3xl bg-[#0c0f18]/90 border border-slate-800 hover:border-rose-500/50 shadow-xl overflow-hidden flex flex-col justify-between">
+        <div>
+          <div class="h-44 bg-gradient-to-br from-slate-900 via-[#0a0d14] to-black flex items-center justify-center border-b border-slate-800">
+            <span class="text-4xl">🎥</span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-black text-white mb-1">यूट्यूब एवं टेक कंटेंट क्रिएशन</h3>
+            <p class="text-xs text-slate-500 font-mono mb-3">YouTube Tech Education</p>
+            <p class="text-sm text-slate-300 mb-4">ग्रामीण और सरकारी स्कूल के छात्रों के लिए सरल हिंदी में कंप्यूटर सीखने और सुरक्षित रहने के टिप्स पर आधारित वीडियो योजना।</p>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <button onclick="openProjectModal('यूट्यूब एवं टेक कंटेंट क्रिएशन', 'छात्रों के लिए आसान भाषा में टेक ट्यूटोरियल्स और साइबर सुरक्षा जागरूकता वीडियो।')" class="w-full py-2.5 rounded-xl bg-rose-500/15 text-rose-400 border border-rose-500/30 font-bold text-sm hover:bg-rose-500 hover:text-white transition-colors cursor-pointer">
+            विवरण देखें →
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="rounded-3xl bg-[#0c0f18]/90 border border-slate-800 hover:border-emerald-500/50 shadow-xl overflow-hidden flex flex-col justify-between">
+        <div>
+          <div class="h-44 bg-gradient-to-br from-slate-900 via-[#0a0d14] to-black flex items-center justify-center border-b border-slate-800">
+            <span class="text-4xl">🚀</span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-black text-white mb-1">भावी एडटेक व डिजिटल टूल्स</h3>
+            <p class="text-xs text-slate-500 font-mono mb-3">Future EdTech Initiatives</p>
+            <p class="text-sm text-slate-300 mb-4">बिहार के स्थानीय छात्रों के लिए निःशुल्क डिजिटल स्टडी रिसोर्स और कम इंटरनेट स्पीड में चलने वाले वेब टूल्स।</p>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <button onclick="openProjectModal('भावी एडटेक व डिजिटल टूल्स', 'धीमे इंटरनेट में भी निर्बाध चलने वाले और स्थानीय छात्रों के लिए उपयोगी डिजिटल टूल्स का विकास।')" class="w-full py-2.5 rounded-xl bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 font-bold text-sm hover:bg-emerald-500 hover:text-slate-950 transition-colors cursor-pointer">
+            विवरण देखें →
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Goals Section -->
+  <section id="goals" class="py-24 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+    <div class="text-center mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-bold uppercase tracking-widest mb-3">
+        <span>लक्ष्य एवं प्रतिबद्धता</span>
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-black text-white">
+        मेरे जीवन के लक्ष्य <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-indigo-400 to-emerald-400">(Vision &amp; Roadmap)</span>
+      </h2>
+      <p class="mt-3 text-slate-300 text-base sm:text-lg max-w-2xl mx-auto font-medium">
+        “सपनों को साकार करने के लिए सबसे जरूरी है — अनुशासन, निरंतर अभ्यास और कभी हार न मानने का जज्बा।”
+      </p>
+      <div class="w-20 h-1 bg-gradient-to-r from-sky-500 to-indigo-500 mx-auto mt-4 rounded-full"></div>
+    </div>
+
+    <!-- Goals List -->
+    <div class="space-y-4 mb-12">
+      <div class="p-5 rounded-2xl bg-[#0c0f18]/85 border border-slate-800 flex items-center gap-4">
+        <div class="w-10 h-10 rounded-xl bg-sky-500/20 text-sky-400 font-black flex items-center justify-center border border-sky-500/30">1</div>
+        <div class="text-lg font-bold text-white">नई Technology सीखना।</div>
+      </div>
+      <div class="p-5 rounded-2xl bg-[#0c0f18]/85 border border-slate-800 flex items-center gap-4">
+        <div class="w-10 h-10 rounded-xl bg-indigo-500/20 text-indigo-400 font-black flex items-center justify-center border border-indigo-500/30">2</div>
+        <div class="text-lg font-bold text-white">अपनी पहली शानदार Website बनाना।</div>
+      </div>
+      <div class="p-5 rounded-2xl bg-[#0c0f18]/85 border border-slate-800 flex items-center gap-4">
+        <div class="w-10 h-10 rounded-xl bg-purple-500/20 text-purple-400 font-black flex items-center justify-center border border-purple-500/30">3</div>
+        <div class="text-lg font-bold text-white">Ethical Cybersecurity में ज्ञान बढ़ाना।</div>
+      </div>
+      <div class="p-5 rounded-2xl bg-[#0c0f18]/85 border border-slate-800 flex items-center gap-4">
+        <div class="w-10 h-10 rounded-xl bg-rose-500/20 text-rose-400 font-black flex items-center justify-center border border-rose-500/30">4</div>
+        <div class="text-lg font-bold text-white">Creative Digital Projects बनाना।</div>
+      </div>
+      <div class="p-5 rounded-2xl bg-[#0c0f18]/85 border border-slate-800 flex items-center gap-4">
+        <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 font-black flex items-center justify-center border border-emerald-500/30">5</div>
+        <div class="text-lg font-bold text-white">अपने सपनों को मेहनत से पूरा करना।</div>
+      </div>
+    </div>
+
+    <!-- Commitment Pledge Box -->
+    <div class="rounded-3xl bg-gradient-to-r from-sky-950/30 via-[#0d101a] to-indigo-950/30 border border-sky-500/30 p-8 text-center shadow-2xl">
+      <h3 class="text-2xl font-black text-white mb-2">लक्ष्य संकल्प पत्र (Personal Commitment)</h3>
+      <p class="text-slate-300 text-sm mb-6 max-w-lg mx-auto">
+        बिहार के छोटे से गाँव से शुरू हुई यह यात्रा आगे चलकर बड़े बदलाव की नींव रखेगी।
+      </p>
+      <button id="oath-btn" onclick="pledgeOath()" class="px-8 py-3.5 rounded-2xl font-black text-base bg-gradient-to-r from-sky-500 to-indigo-600 text-white hover:scale-105 transition-all shadow-xl cursor-pointer">
+        मेरा संकल्प पक्का है →
+      </button>
+    </div>
+  </section>
+
+  <!-- 10. Footer -->
+  <footer class="bg-[#05070d] border-t border-slate-800/80 pt-16 pb-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 mb-12">
+      <div>
+        <div class="flex items-center gap-2 mb-2">
+          <span class="text-xl font-black text-white">आयुष गौरव</span>
+          <span class="text-xs px-2 py-0.5 rounded-full bg-sky-500/10 text-sky-400 border border-sky-500/20">
+            Official Portfolio
+          </span>
+        </div>
+        <p class="text-xs text-slate-400 max-w-sm mb-2">
+          विद्यार्थी: <strong>UMV Tukariya</strong> • बेतिया, पश्चिम चंपारण, बिहार, भारत।
+        </p>
+        <p class="text-xs text-slate-500 italic">
+          “यह केवल शुरुआत है, निरंतर अभ्यास से ही उत्कृष्टता संभव है।”
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-3">
+        <a href="https://instagram.com/Ayushfly456" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-xl bg-gradient-to-r from-pink-500/15 to-purple-500/15 border border-pink-500/30 text-pink-300 hover:text-white hover:border-pink-400 text-xs flex items-center gap-1.5 font-semibold transition-all shadow-sm">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+          </svg>
+          <span>Instagram: @Ayushfly456</span>
+        </a>
+        <button onclick="downloadCurrentIndexHtml()" class="px-3.5 py-2 rounded-xl bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500 hover:text-slate-950 text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer">
+          <span>📥</span> index.html डाउनलोड करें
+        </button>
+        <a href="mailto:goldygaurav16@gmail.com" class="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-sky-400 text-xs">
+          📧 ईमेल
+        </a>
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-2.5 rounded-xl bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs cursor-pointer">
+          ⬆️ ऊपर जाएं
+        </button>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+      <div>© 2026 आयुष गौरव (Ayush Gaurav) • सभी अधिकार सुरक्षित।</div>
+      <div class="flex items-center gap-2">
+        <span>डिजिटल शिल्प</span>
+        <button onclick="openModal('crush-modal')" title="विशेष प्रेरणा" class="p-1 rounded-full text-purple-400 hover:text-purple-300 hover:scale-125 transition-all cursor-pointer">
+          💜
+        </button>
+        <span>• Ayush Gaurav</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal: Secret Crush Easter Egg 💜 -->
+  <div id="crush-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/85 backdrop-blur-md p-4">
+    <div class="w-full max-w-md bg-gradient-to-b from-[#140f28] via-[#0d091a] to-[#07050f] border border-purple-500/40 rounded-3xl p-6 sm:p-8 text-center relative shadow-2xl">
+      <button onclick="closeModal('crush-modal')" class="absolute top-4 right-4 text-purple-400 hover:text-white text-lg cursor-pointer">✕</button>
+      <div class="text-4xl mb-3">💜</div>
+      <span class="text-xs font-mono uppercase tracking-widest text-purple-400 font-bold px-3 py-1 rounded-full bg-purple-950/60 border border-purple-500/40 mb-3 inline-block">
+        विशेष प्रेरणा 💜 • EASTER EGG
+      </span>
+      <h3 class="text-2xl font-black text-white mb-4">एक मौन प्रेरणा</h3>
+      <div class="p-4 rounded-2xl bg-black/60 border border-purple-500/30 text-sm text-slate-200 italic mb-4">
+        “कुछ अनुभूतियां शब्दों से परे होती हैं — जो मौन रहकर भी हर नए लक्ष्य और सपने को संवारने की असीम प्रेरणा देती हैं।”
+      </div>
+      <p class="text-xs text-slate-400 mb-4">यह संदेश किसी की निजता में दखल दिए बिना केवल एक सुंदर और सम्मानजनक भावना की अभिव्यक्ति है।</p>
+      <div class="p-3 rounded-xl bg-purple-950/40 border border-purple-500/40 text-xs font-mono text-purple-300 mb-4">
+        [SECRET_NAME] ✦ ✦
+      </div>
+      <button onclick="closeModal('crush-modal')" class="w-full py-2 rounded-xl bg-purple-600 text-white font-bold text-xs hover:bg-purple-500 cursor-pointer">
+        दस्तावेज़ बंद करें
+      </button>
+    </div>
+  </div>
+
+  <!-- Modal: Free Hosting Guide -->
+  <div id="hosting-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/85 backdrop-blur-md p-4">
+    <div class="w-full max-w-lg max-h-[85vh] bg-[#0c0f18] border border-slate-700 rounded-3xl p-6 overflow-y-auto relative">
+      <button onclick="closeModal('hosting-modal')" class="absolute top-4 right-4 text-slate-400 hover:text-white text-lg cursor-pointer">✕</button>
+      <h3 class="text-2xl font-black text-white mb-2">🚀 मुफ़्त होस्टिंग गाइड (Free Hosting Guide)</h3>
+      <p class="text-xs text-slate-300 mb-4">इस <code>index.html</code> फाइल को GitHub Pages या Vercel पर 100% मुफ़्त ऑनलाइन पब्लिश करने का तरीका:</p>
+      <div class="space-y-3 text-xs text-slate-300 mb-6">
+        <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
+          <strong class="text-sky-400">1. GitHub Pages पर पब्लिश करें:</strong>
+          <p class="mt-1">GitHub.com पर एक नया रिपॉजिटरी बनाएं। इस <code>index.html</code> फाइल और <code>images/</code> फोल्डर को मुख्य ब्रांच (main) में अपलोड करें। Settings → Pages में जाकर 'Deploy from a branch' चुनें। आपकी वेबसाइट 2 मिनट में <code>https://username.github.io/repo/</code> पर फ्री में लाइव हो जाएगी!</p>
+        </div>
+        <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
+          <strong class="text-emerald-400">2. Vercel या Netlify पर 1-Click में लाइव करें:</strong>
+          <p class="mt-1">vercel.com या netlify.com पर जाएं। इस प्रोजेक्ट फोल्डर को ड्रैग-एंड-ड्रॉप (Drag &amp; Drop) करें। यह तुरंत दुनिया भर में लाइव हो जाएगा।</p>
+        </div>
+        <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
+          <strong class="text-indigo-400">3. बिना इंटरनेट या ऑफलाइन चलाएं:</strong>
+          <p class="mt-1">इस <code>index.html</code> फाइल पर डबल-क्लिक करके आप सीधे किसी भी कंप्यूटर, लैपटॉप या मोबाइल ब्राउज़र में इसे खोल सकते हैं।</p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <button onclick="downloadCurrentIndexHtml()" class="flex-1 py-2.5 rounded-xl bg-emerald-500 text-slate-950 font-extrabold text-sm hover:bg-emerald-400 cursor-pointer">
+          📥 index.html डाउनलोड करें
+        </button>
+        <button onclick="closeModal('hosting-modal')" class="flex-1 py-2.5 rounded-xl bg-slate-800 text-white font-bold text-sm hover:bg-slate-700 cursor-pointer">
+          बंद करें
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Project Detail -->
+  <div id="project-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/85 backdrop-blur-md p-4">
+    <div class="w-full max-w-md bg-[#0f131f] border border-sky-500/40 rounded-3xl p-6 relative">
+      <button onclick="closeModal('project-modal')" class="absolute top-4 right-4 text-slate-400 hover:text-white text-lg cursor-pointer">✕</button>
+      <h3 id="modal-project-title" class="text-2xl font-black text-white mb-2"></h3>
+      <p id="modal-project-desc" class="text-sm text-slate-300 mb-6"></p>
+      <button onclick="closeModal('project-modal')" class="w-full py-2.5 rounded-xl bg-sky-500 text-slate-950 font-extrabold text-sm hover:bg-sky-400 cursor-pointer">
+        वापस जाएं
+      </button>
+    </div>
+  </div>
+
+  <!-- Scripts: 3D Scene, Audio, Interactions, Downloader -->
+  <script>
+    // Download index.html function
+    function downloadCurrentIndexHtml() {
+      const htmlContent = "<!DOCTYPE html>\n" + document.documentElement.outerHTML;
+      const blob = new Blob([htmlContent], { type: 'text/html;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'index.html';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      if (soundOn) playChime();
+    }
+
+    // Audio Synthesizer (Web Audio API)
+    let audioCtx = null;
+    let soundOn = false;
+
+    function getAudioCtx() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      return audioCtx;
+    }
+
+    function toggleSound() {
+      soundOn = !soundOn;
+      document.getElementById('sound-icon').innerText = soundOn ? '🔊' : '🔇';
+      document.getElementById('sound-text').innerText = soundOn ? 'Sound ON' : 'Sound OFF';
+      if (soundOn) playChime();
+    }
+
+    function playChime() {
+      if (!soundOn) return;
+      const ctx = getAudioCtx();
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.frequency.setValueAtTime(440, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(880, ctx.currentTime + 0.25);
+      gain.gain.setValueAtTime(0.08, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.35);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.4);
+    }
+
+    function openModal(id) {
+      document.getElementById(id).classList.remove('hidden');
+      if (soundOn) playChime();
+    }
+    function closeModal(id) {
+      document.getElementById(id).classList.add('hidden');
+    }
+
+    function openProjectModal(title, desc) {
+      document.getElementById('modal-project-title').innerText = title;
+      document.getElementById('modal-project-desc').innerText = desc;
+      openModal('project-modal');
+    }
+
+    function dismissIntro() {
+      const loader = document.getElementById('intro-loader');
+      loader.style.opacity = '0';
+      setTimeout(() => loader.style.display = 'none', 500);
+      if (soundOn) playChime();
+    }
+
+    function pledgeOath() {
+      if (soundOn) playChime();
+      document.getElementById('oath-btn').innerText = 'संकल्प स्वीकृत! (Commitment Locked)';
+      document.getElementById('oath-btn').className = 'px-8 py-3.5 rounded-2xl font-black text-base bg-emerald-500 text-slate-950 shadow-xl';
+      if (window.confetti) {
+        confetti({ particleCount: 70, spread: 80, origin: { y: 0.7 } });
+      }
+    }
+
+    let motionReduced = false;
+    function toggleMotion() {
+      motionReduced = !motionReduced;
+      document.getElementById('motion-text').innerText = motionReduced ? 'कम गति' : 'गति सामान्य';
+    }
+
+    // Three.js 3D Interactive Tech Core Scene
+    let activeTheme = 'cyber';
+
+    function setTheme(theme) {
+      activeTheme = theme;
+      ['cyber', 'matrix', 'quantum'].forEach(t => {
+        const btn = document.getElementById('btn-' + t);
+        if (t === theme) {
+          btn.className = 'px-3 py-1.5 rounded-lg text-xs font-bold ' + 
+            (t === 'cyber' ? 'bg-sky-500 text-slate-950' : t === 'matrix' ? 'bg-emerald-500 text-slate-950' : 'bg-purple-500 text-slate-950');
+        } else {
+          btn.className = 'px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 text-slate-300';
+        }
+      });
+      if (soundOn) playChime();
+    }
+
+    function initThree() {
+      const container = document.getElementById('three-container');
+      if (!container) return;
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(45, container.clientWidth / container.clientHeight, 0.1, 100);
+      camera.position.set(0, 0, 5.5);
+
+      const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+      renderer.setSize(container.clientWidth, container.clientHeight);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      container.appendChild(renderer.domElement);
+
+      const amb = new THREE.AmbientLight(0x1e293b, 1.8);
+      scene.add(amb);
+      const dir = new THREE.DirectionalLight(0x38bdf8, 2.5);
+      dir.position.set(3, 4, 3);
+      scene.add(dir);
+
+      const techGroup = new THREE.Group();
+      techGroup.position.set(window.innerWidth < 768 ? 0 : 1.1, 0, 0);
+      scene.add(techGroup);
+
+      const outerMat = new THREE.MeshStandardMaterial({ color: 0x38bdf8, wireframe: true });
+      const outerCore = new THREE.Mesh(new THREE.IcosahedronGeometry(1.5, 1), outerMat);
+      techGroup.add(outerCore);
+
+      const innerMat = new THREE.MeshStandardMaterial({ color: 0x0284c7 });
+      const innerCore = new THREE.Mesh(new THREE.OctahedronGeometry(0.7, 0), innerMat);
+      techGroup.add(innerCore);
+
+      const ring1 = new THREE.Mesh(new THREE.TorusGeometry(1.85, 0.015, 8, 48), new THREE.MeshBasicMaterial({ color: 0x38bdf8 }));
+      ring1.rotation.x = Math.PI / 3;
+      techGroup.add(ring1);
+
+      // Particles
+      const pCount = 200;
+      const pGeo = new THREE.BufferGeometry();
+      const pPos = new Float32Array(pCount * 3);
+      for(let i=0; i<pCount*3; i+=3) {
+        pPos[i] = (Math.random() - 0.5) * 4;
+        pPos[i+1] = (Math.random() - 0.5) * 4;
+        pPos[i+2] = (Math.random() - 0.5) * 4;
+      }
+      pGeo.setAttribute('position', new THREE.BufferAttribute(pPos, 3));
+      const pMat = new THREE.PointsMaterial({ size: 0.06, color: 0x38bdf8 });
+      const pMesh = new THREE.Points(pGeo, pMat);
+      techGroup.add(pMesh);
+
+      let mouseX = 0, mouseY = 0;
+      window.addEventListener('mousemove', e => {
+        mouseX = (e.clientX / window.innerWidth) * 2 - 1;
+        mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
+      });
+
+      function animate() {
+        requestAnimationFrame(animate);
+        if (!motionReduced) {
+          techGroup.rotation.y += 0.005 + mouseX * 0.01;
+          outerCore.rotation.x += 0.003;
+          ring1.rotation.z += 0.008;
+        }
+
+        if (activeTheme === 'cyber') {
+          outerMat.color.setHex(0x38bdf8);
+          innerMat.color.setHex(0x0284c7);
+          pMat.color.setHex(0x38bdf8);
+        } else if (activeTheme === 'matrix') {
+          outerMat.color.setHex(0x10b981);
+          innerMat.color.setHex(0x059669);
+          pMat.color.setHex(0x10b981);
+        } else {
+          outerMat.color.setHex(0xa855f7);
+          innerMat.color.setHex(0x7c3aed);
+          pMat.color.setHex(0xa855f7);
+        }
+
+        renderer.render(scene, camera);
+      }
+      animate();
+
+      window.addEventListener('resize', () => {
+        camera.aspect = container.clientWidth / container.clientHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(container.clientWidth, container.clientHeight);
+        techGroup.position.set(window.innerWidth < 768 ? 0 : 1.1, 0, 0);
+      });
+    }
+
+    function initTechParticles() {
+      const c = document.getElementById('tech-canvas');
+      if (!c) return;
+      const ctx = c.getContext('2d');
+      let w = c.width = window.innerWidth;
+      let h = c.height = window.innerHeight;
+      window.addEventListener('resize', () => { w = c.width = window.innerWidth; h = c.height = window.innerHeight; });
+
+      const nodes = Array.from({ length: 25 }, () => ({
+        x: Math.random() * w, y: Math.random() * h,
+        s: 1.5 + Math.random() * 2, vy: 0.2 + Math.random() * 0.4,
+        color: ['#38bdf8', '#818cf8', '#10b981'][Math.floor(Math.random() * 3)]
+      }));
+
+      function draw() {
+        ctx.clearRect(0, 0, w, h);
+        if (!motionReduced) {
+          nodes.forEach(n => {
+            n.y += n.vy;
+            if (n.y > h + 10) n.y = -10;
+            ctx.fillStyle = n.color;
+            ctx.beginPath();
+            ctx.arc(n.x, n.y, n.s, 0, Math.PI * 2);
+            ctx.fill();
+          });
+        }
+        requestAnimationFrame(draw);
+      }
+      draw();
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      initThree();
+      initTechParticles();
+    });
+  </script>
+
+
+</body></html>
